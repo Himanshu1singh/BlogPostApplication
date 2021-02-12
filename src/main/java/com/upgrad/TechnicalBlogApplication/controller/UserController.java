@@ -13,9 +13,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-public class UserController {
+public class
 
-    private UserService userService = new UserService();
+UserController {
+
+
+    private  UserService userService = new UserService();
     private PostService postService = new PostService();
 
     // GET Request to "/users/login
